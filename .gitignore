@@ -1,2 +1,4 @@
 .env/
 *.wav
+datasets/
+diarization/passwords.py
