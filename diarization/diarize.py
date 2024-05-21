@@ -19,7 +19,7 @@ pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1",
 pipeline.to(torch.device("cuda"))
 
 # audios (.wav) should be placed in the followin folder (modify if necessary)
-base_dir = os.path.join(os.getcwd(), 'datasets', "FONDECYT_converted")
+base_dir = os.path.join(os.getcwd(), 'datasets',"FONDECYT_REDLAT_CTR_AD")
 
 def diarize(audio_file):
     """
@@ -81,6 +81,7 @@ def extract_audio(audio_file, diarization_df, longest_speaker):
             new_waveform[row['start']:row['end']] = waveform[row['start']:row['end']]
     output_file = os.path.join(base_dir, 'diarization', f'{audio_file.split("/")[-1][:-4]}_participant.wav')
     sf.write(output_file, new_waveform, sr)
+
 if __name__ == "__main__":
     output_dir = os.path.join(base_dir, 'diarization')
     os.makedirs(output_dir, exist_ok=True)
