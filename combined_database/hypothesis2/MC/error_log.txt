@@ -1,0 +1,1 @@
+Error with FONDECYT_CS0008_VocalA.wav: 'speaker'

@@ -1,0 +1,2 @@
+Error with FONDECYT_SL00276_VocalA.wav: 'speaker'
+Error with FONDECYT_KSL0002_VocalA.wav: 'speaker'
