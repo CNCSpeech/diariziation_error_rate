@@ -1,4 +1,4 @@
-name,diarization error rate,total,correct,correct,false alarm,false alarm,missed detection,missed detection,confusion,confusion
+,diarization error rate,total,correct,correct,false alarm,false alarm,missed detection,missed detection,confusion,confusion
 ,%,,,%,,%,,%,,%
 item,,,,,,,,,,
 GERO_COH_125_Fugu.txt,26.295204453731692,32.27334100000001,23.78699999999999,73.7047955462683,0.0,0.0,8.486341000000019,26.295204453731692,0.0,0.0

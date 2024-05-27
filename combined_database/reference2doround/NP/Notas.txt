@@ -1,8 +1,0 @@
-Audios Pitcheados:
-- Carpeta 'Solo escuchar':
-   - FONDECYT_KSL0004_RecuerdoAgradable_participant.wav
-   - FONDECYT_KSL0009_Pataka_participant.wav
-- Carpeta 'Diarizar manualmente':
-   - FONDECYT_KSL0002_Lectura.wav
-
-NOTA: En NP_review.xlsx hay audios marcados con 'amarillo'. Estos indican que hay muy poca diarizacion o VAD. Por lo tanto, es difícil identificar al participante y al evaluados. Los audios marcados en 'naranja' son los pitcheados. 
