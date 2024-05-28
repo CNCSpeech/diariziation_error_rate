@@ -1,3 +1,2 @@
 pyannote.metrics
 pyannote.audio
-torch

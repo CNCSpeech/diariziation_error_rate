@@ -16,10 +16,14 @@ import numpy as np
 from passwords import AUTH_TOKEN
 pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1",
                                     use_auth_token=AUTH_TOKEN)
-pipeline.to(torch.device("cuda"))
+# check if GPU is available
+if torch.cuda.is_available():
+    pipeline.to(torch.device("cuda"))
+else:
+    pipeline.to(torch.device("cpu"))
 
 # audios (.wav) should be placed in the followin folder (modify if necessary)
-base_dir = os.path.join(os.getcwd(), 'combined_database', "reference2", "NP")
+base_dir = os.path.join(os.getcwd(), 'datasets', "CETRAM_converted")
 
 def diarize(audio_file):
     """
