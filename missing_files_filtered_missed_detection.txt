@@ -1,0 +1,9 @@
+CETRAM_AMG-0031_RecuerdoAgradable_manual_participant_vad.csv not found
+CETRAM_AMG-0043_AutoSinRuedas_manual_participant_vad.csv not found
+CETRAM_AMG-0019_LetraP_manual_participant_vad.csv not found
+CETRAM_AMG-0034_DescripcionDeDibujo2_manual_participant_vad.csv not found
+CETRAM_AMG-0037_Animales_manual_participant_vad.csv not found
+CETRAM_AMG-0017_RecuerdoAgradable_manual_participant_vad.csv not found
+CETRAM_AMG-0014_VocalSostenida_manual_participant_vad.csv not found
+CETRAM_AMG-0040_AutoSinRuedas_manual_participant_vad.csv not found
+FONDECYT_SL00325_Renarracion_manual_participant_vad.csv not found
