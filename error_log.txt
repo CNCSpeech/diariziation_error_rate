@@ -1,0 +1,4 @@
+REDLAT/reference/FA/REDLAT_MA610_CraftIm.txt
+REDLAT/reference/JP/REDLAT_CU396_CraftIm.txt
+REDLAT/reference/JP/REDLAT_MA442_CraftIm.txt
+REDLAT/reference/RB/REDLAT_CU575_CraftDe.txt
