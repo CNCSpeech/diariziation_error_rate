@@ -1,0 +1,1 @@
+Error with REDLAT_MA610_CraftIm.wav: 'speaker'

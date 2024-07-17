@@ -1,0 +1,38 @@
+AF
+REDLAT_AF060_Phonological2	conversación de fondo.
+Behrens
+REDLAT_BE00130_CraftDe		es un audio de whatsapp??
+REDLAT_BN00165_CraftDe		mucho ruido
+Custodio:
+REDLAT_CU006_Fugu		evaluador
+REDLAT_CU021_CraftIm		evaluador
+REDLAT_CU024_Semantic2		evaluador habla mucho más que el participante. Nivel de ruido coparable con participante. Pesima calidad
+REDLAT_CU038_Semantic2		evaluador habla mucho. Nivel de ruido alto
+REDLAT_CU122_Semantic		evaluador habla mucho. Problemático
+REDLAT_CU172_CraftIm		evaluador habla mucho. Pesimo audio del participante, casi ni se escucha
+REDLAT_CU192_CraftIm		demasiado ruido. Inviable
+REDLAT_CU230_Semantic2		mucho ruido
+REDLAT_CU244_Phonological	solo habla el evaluador. Descartar audio.
+REDLAT_CU289_Semantic		mucho ruido
+REDLAT_CU299_CraftIm		no completa la tarea. habla el evaluador
+REDLAT_CU314_CraftDe		terrible calidad. Descartar
+REDLAT_CU379_CraftDe		participante no completa la tarea. Habla más el evaluador. Terrible nivel de ruido.
+REDLAT_CU386_Semantic2		muchisimo ruido. Practicamente invable
+REDLAT_CU399_CraftDe		participante no completa la tarea. Habla más el evaluador. Terrible nivel de ruido
+REDLAT_CU434_Phonological2	no hay participante
+REDLAT_CU656_CraftIm		mucho ruido
+Loprea
+-
+Matallana			niveles de ruido muy dispares
+REDLAT_MA283_Fugu		mucho ruido/conversación de fondo
+REDLAT_MA354_Semantic2		mucho reverb, muchisima participación del evaluador
+REDLAT_MA455_CraftIm		mala calidad del audio. 
+REDLAT_MA497_Fugu		poca inteligibilidad
+REDLAT_MA577_Phonological	demasiada participación del evaluador
+REDLAT_MA607_Semantic2		conversación de fondo
+REDLAT_MA611_CraftDe		habla más el evaluador
+REDLAT_MA627_Semantic		conversación en simultaneo
+REDLAT_MA690_Fugu		no habla el participante
+-
+SL				volumenes un poco bajos de voz en general 
+

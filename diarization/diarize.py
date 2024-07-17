@@ -23,7 +23,7 @@ else:
     pipeline.to(torch.device("cpu"))
 
 # audios (.wav) should be placed in the followin folder (modify if necessary)
-base_dir = os.path.join(os.getcwd(), 'REDLAT', "ASW")
+base_dir = os.path.join(os.getcwd(), 'REDLAT','hypothesis', 'SG')
 
 def diarize(audio_file):
     """

@@ -1,0 +1,2 @@
+Error with REDLAT_CU396_CraftIm.wav: 'speaker'
+Error with REDLAT_CU396_CraftIm.wav: 'speaker'
