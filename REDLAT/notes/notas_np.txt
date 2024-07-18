@@ -1,0 +1,18 @@
+Notas Diarizacion Manual ReDLat
+
+REDLAT_AF204_CraftDe		Poco contenido. Mucha participación del evaluador y casi nada del paciente.
+REDLAT_BE00130_Phonological2	Audio de whatsapp.
+REDLAT_CU037_CraftDe		Habla mucho la evaluadora, poco la paciente.
+REDLAT_CU290_Phonological2	Habla mucho la evaluadora y se escucha muy bajo al paciente.
+REDLAT_CU327_CraftDe		Muy poco contenido y no se entiende quien habla bien.
+REDLAT_CU639_Phonological	Muy poco habla el participante.
+REDLAT_CU643_Fugu		Suena un teléfono bastante fuerte en el medio de la grabación.
+REDLAT_MA412_Semantic2		Un audio corto de solo la evaluadora diciéndole la consigna de la tarea.
+REDLAT_MA425_CraftDe		Audio corto en donde habla mas la evaluadora. La paciente no se acuerda.
+REDLAT_MA610_CraftDe		Audio que no tiene contenido. Un segmento corto.
+REDLAT_MA630_CraftDe		Audio corto con poco contenido de participante.
+REDLAT_MA669_CraftIm		Se escucha muy bajo al paciente.
+REDLAT_SL00356_CraftDe		Audio de 4 segundos con la paciente bloqueada.
+
+
+
