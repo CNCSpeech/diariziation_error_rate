@@ -18,6 +18,6 @@ for folder in os.listdir(RESULTS_FOLDER):
                 #print the last line of the last column
                 with open(os.path.join(RESULTS_FOLDER, folder, filename), 'r', encoding="utf-8") as f:
                     lines = f.readlines()
-                    print(filename.replace("DER_report_", "").replace(".csv", ""),"confussion rate is: " ,
+                    print(filename.replace("DER_report_", "").replace(".csv", ""),"confusion rate: " ,
                            round(float(lines[-1].split(',')[-1].strip()), 2), "%")
         

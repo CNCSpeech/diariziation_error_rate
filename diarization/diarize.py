@@ -23,7 +23,7 @@ else:
     pipeline.to(torch.device("cpu"))
 
 # audios (.wav) should be placed in the followin folder (modify if necessary)
-base_dir = os.path.join(os.getcwd(), 'REDLAT','hypothesis', 'SG')
+base_dir = os.path.join(os.getcwd(), 'REDLAT','hypothesis', 'RB')
 
 def diarize(audio_file):
     """
@@ -31,7 +31,7 @@ def diarize(audio_file):
     diarization dataframe and a dictionary containing the number of speakers and 
     their speaking time."""
     waveform, sr = torchaudio.load(audio_file) # Audio must be a torch tensor
-    diarization = pipeline({'waveform':waveform,'sample_rate':sr})
+    diarization = pipeline({'waveform':waveform,'sample_rate':sr}, min_speakers=1, max_speakers=2)
     diarization_df = pd.DataFrame()
 
     # Count number of speakers
@@ -87,15 +87,18 @@ def extract_audio(audio_file, diarization_df, longest_speaker):
     sf.write(output_file, new_waveform, sr)
 
 if __name__ == "__main__":
-    output_dir = os.path.join(base_dir, 'diarization')
+    output_dir = os.path.join(base_dir, 'diarization_min_max')
     os.makedirs(output_dir, exist_ok=True)
     for file in tqdm.tqdm(os.listdir(base_dir)):
         if file.endswith('.wav'):
             try:
                 audio_file = os.path.join(base_dir, file)
+                # check if file has already been processed
+                if os.path.exists(os.path.join(output_dir, f'{file[:-4]}_diarization.csv')):
+                    continue
                 diarization, diarization_df, output_dict = diarize(audio_file)
-                longest_speaker = get_longest_speaker(diarization_df)
-                extract_audio(audio_file, diarization_df, longest_speaker)
+                # longest_speaker = get_longest_speaker(diarization_df)
+                # extract_audio(audio_file, diarization_df, longest_speaker)
                 diarization_df.to_csv(os.path.join(output_dir, f'{file[:-4]}_diarization.csv'), index=False)
             except Exception as e:
                 with open(os.path.join(output_dir, 'error_log.txt'), 'a', encoding="utf-8") as f:
