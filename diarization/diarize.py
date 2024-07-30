@@ -66,7 +66,7 @@ def get_longest_speaker(diarization_df):
     longest_speaker = speaker_durs.iloc[0]['speaker']
     return longest_speaker
 
-def extract_audio(audio_file, diarization_df, longest_speaker):
+def extract_audio(base_dir, audio_file, diarization_df, longest_speaker):
     """
     This function takes the audio file, diarization dataframe and the speaker with the
     highest speaking time as input and deletes any intervention from other speakers.
@@ -78,6 +78,8 @@ def extract_audio(audio_file, diarization_df, longest_speaker):
             new_waveform[row['start']:row['end']] = 0   # Delete audio from other speakers
         else:
             new_waveform[row['start']:row['end']] = waveform[row['start']:row['end']]
+    if not os.path.exists(os.path.join(base_dir, 'diarization')):
+        os.makedirs(os.path.join(base_dir, 'diarization'))
     output_file = os.path.join(base_dir, 'diarization', f'{audio_file.split("/")[-1][:-4]}_participant.wav')
     sf.write(output_file, new_waveform, sr)
 
@@ -105,16 +107,34 @@ def txt_to_diarization_df(manual_diarization_path):
 
 if __name__ == "__main__":
 
+    cwd = os.getcwd()
+    base_dir = os.path.join(cwd, 'vasco', "hypothesis")
 
-    audios_path = os.path.join('/home/aleph/diariziation_error_rate/REDLAT/hypothesis')
-
-    for root, dirs, files in os.walk(audios_path):
+    for root, dirs, files in os.walk(base_dir):
         for file in files:
-            if file.endswith('.wav'):
-                # get the manual diarization path:
-                manual_diarization_file = os.path.join(root, file).replace("hypothesis", "reference").replace('wav', 'txt')
-                manual_diarization_df = txt_to_diarization_df(manual_diarization_file)
-                audio_file = os.path.join(root, file)
-                diarization, diarization_df, output_dict = diarize(audio_file)
-                longest_speaker = "p"
-                extract_audio(audio_file, manual_diarization_df, longest_speaker)
+            if file.lower().endswith('.wav'):
+                try:
+                    audio_file = os.path.join(root, file)
+                    diarization, diarization_df, output_dict = diarize(audio_file)
+                    longest_speaker = get_longest_speaker(diarization_df)
+                    extract_audio(root, audio_file, diarization_df, longest_speaker)
+                except Exception as e:
+                    print(f"Error with file {file}: {e}")
+                    with open('error_log.txt', 'a') as f:
+                        f.write(f"Error with file {file}: {e}\n")
+                    continue
+    # audios_path = os.path.join('/home/aleph/diariziation_error_rate/REDLAT/hypothesis/')
+
+    # for root, dirs, files in os.walk(audios_path):
+    #     for file in files:
+    #         if file.endswith('.wav'):
+    #             try:
+    #                 manual_diarization_file = os.path.join(root, file).replace("hypothesis", "reference").replace('wav', 'txt')
+    #                 manual_diarization_df = txt_to_diarization_df(manual_diarization_file)
+    #                 audio_file = os.path.join(root, file)
+    #                 diarization, diarization_df, output_dict = diarize(audio_file)
+    #                 longest_speaker = "p"
+    #                 extract_audio(root, audio_file, manual_diarization_df, longest_speaker)
+    #             except Exception as e:
+    #                 print(f"Error with file {file}: {e}")
+    #                 continue
