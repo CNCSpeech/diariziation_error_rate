@@ -81,14 +81,40 @@ def extract_audio(audio_file, diarization_df, longest_speaker):
     output_file = os.path.join(base_dir, 'diarization', f'{audio_file.split("/")[-1][:-4]}_participant.wav')
     sf.write(output_file, new_waveform, sr)
 
+def txt_to_diarization_df(manual_diarization_path):
+    """
+    This function takes the path to the manual diarization text file as input and returns
+    a dataframe containing the manual diarization information."""
+    diarization_df = pd.DataFrame()
+    sr = 16000 # assumed sample rate
+
+    with open(manual_diarization_path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                start, end, speaker = line.split('\t')
+                new_row = {'start': int(float(start) * sr), 
+                           'end': int(float(end) * sr), 
+                           'start [s]': round(float(start),3), 
+                           'end [s]': round(float(end),3), 
+                           'dur [s]' : round(float(end)-float(start),3), 
+                           'speaker': speaker}
+                diarization_df = pd.concat([diarization_df, pd.DataFrame(new_row, index=[0])], 
+                                           ignore_index=True)
+    return diarization_df
+
 if __name__ == "__main__":
-    # audios (.wav) should be placed in the followin folder (modify if necessary)
-    base_dir = os.path.join(os.getcwd(), 'REDLAT','hypothesis', 'AS')
 
-    path_to_audio_files = os.path.join(base_dir, 'REDLAT_AF109_Phonological.wav')
 
-    diarization, diarization_df, output_dict = diarize(path_to_audio_files)
-    longest_speaker = get_longest_speaker(diarization_df)
-    extract_audio(path_to_audio_files, diarization_df, longest_speaker)
-    diarization_df.to_csv(os.path.join(f'{path_to_audio_files[:-4]}_diarization.csv'), index=False, encoding='utf-8')
+    audios_path = os.path.join('/home/aleph/diariziation_error_rate/REDLAT/hypothesis')
 
+    for root, dirs, files in os.walk(audios_path):
+        for file in files:
+            if file.endswith('.wav'):
+                # get the manual diarization path:
+                manual_diarization_file = os.path.join(root, file).replace("hypothesis", "reference").replace('wav', 'txt')
+                manual_diarization_df = txt_to_diarization_df(manual_diarization_file)
+                audio_file = os.path.join(root, file)
+                diarization, diarization_df, output_dict = diarize(audio_file)
+                longest_speaker = "p"
+                extract_audio(audio_file, manual_diarization_df, longest_speaker)
