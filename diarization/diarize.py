@@ -111,13 +111,15 @@ if __name__ == "__main__":
     base_dir = os.path.join(cwd, 'vasco', "hypothesis")
 
     for root, dirs, files in os.walk(base_dir):
-        for file in files:
+        for file in tqdm.tqdm(files):
             if file.lower().endswith('.wav'):
                 try:
                     audio_file = os.path.join(root, file)
                     diarization, diarization_df, output_dict = diarize(audio_file)
                     longest_speaker = get_longest_speaker(diarization_df)
                     extract_audio(root, audio_file, diarization_df, longest_speaker)
+                    # save diarization dataframe
+                    diarization_df.to_csv(os.path.join(root, f'{file[:-4]}_diarization.csv'), index=False)
                 except Exception as e:
                     print(f"Error with file {file}: {e}")
                     with open('error_log.txt', 'a') as f:
