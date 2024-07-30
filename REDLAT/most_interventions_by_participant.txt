@@ -1,0 +1,6 @@
+Number of most interventions by P: 1605
+Number of most interventions by E: 66
+Number of most interventions by E in CU: 28
+Number of most interventions by E in MA: 22
+Number of most interventions by E in LO: 12
+Total number of files: 1671

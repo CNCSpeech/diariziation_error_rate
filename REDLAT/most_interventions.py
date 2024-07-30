@@ -51,9 +51,17 @@ for root, dirs, files in os.walk(os.path.join(cwd, "REDLAT", "reference")):
                 # print(speaking_times)
             # break
 
-print("Number of most interventions by P:", count_p)
-print("Number of most interventions by E:", count_e)
-print("Number of most interventions by E in CU:", count_CU)
-print("Number of most interventions by E in MA:", count_MA)
-print("Number of most interventions by E in LO:", count_LO)
+# print("Number of most interventions by P:", count_p)
+# print("Number of most interventions by E:", count_e)
+# print("Number of most interventions by E in CU:", count_CU)
+# print("Number of most interventions by E in MA:", count_MA)
+# print("Number of most interventions by E in LO:", count_LO)
 
+with open(os.path.join("REDLAT", "most_interventions_by_participant.txt"), "w", encoding="utf-8") as f:
+    f.write("Number of most interventions by P: {}\n".format(count_p))
+    f.write("Number of most interventions by E: {}\n".format(count_e))
+    f.write("Number of most interventions by E in CU: {}\n".format(count_CU))
+    f.write("Number of most interventions by E in MA: {}\n".format(count_MA))
+    f.write("Number of most interventions by E in LO: {}\n".format(count_LO))
+    f.write("Total number of files: {}\n".format(count_p + count_e))
+    

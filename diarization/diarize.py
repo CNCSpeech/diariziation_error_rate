@@ -14,8 +14,7 @@ import soundfile as sf
 import numpy as np
 
 from passwords import AUTH_TOKEN
-pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1",
-                                    use_auth_token=AUTH_TOKEN)
+pipeline = Pipeline.from_pretrained("config.yaml")
 # check if GPU is available
 if torch.cuda.is_available():
     pipeline.to(torch.device("cuda"))
@@ -87,7 +86,7 @@ def extract_audio(audio_file, diarization_df, longest_speaker):
     sf.write(output_file, new_waveform, sr)
 
 if __name__ == "__main__":
-    humans = ['FA', 'JP', 'LG', 'MA', 'MC', 'NP', 'SG']
+    humans = ['AS']
 
     for human in humans:
         print(f"Processing {human}")
