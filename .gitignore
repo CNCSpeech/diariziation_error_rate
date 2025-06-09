@@ -3,3 +3,5 @@
 *.WAV
 datasets/
 diarization/passwords.py
+der_env/
+UCSF*/

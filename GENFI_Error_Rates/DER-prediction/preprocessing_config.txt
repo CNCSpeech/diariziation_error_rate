@@ -1,0 +1,5 @@
+Preprocessing configuration: diarization = True
+convert_wav_mono_16khz, NEMO_eliminate_evaluator, normalize_loudness and denoise
+Date of execution:2025-06-09 12:48 
+Author: 
+Description: Preprocessing of the audio files from the ... project
