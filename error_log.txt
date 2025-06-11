@@ -1225,3 +1225,220 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-predictions/Agus/15-010__FREE.txt'
 
 
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/17-039_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/17-026_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/02-074_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/01-092_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/02-060_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/07-034_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/17-018_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-076__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/15-064__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/17-029__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-158__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-182__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/15-091__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-121__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/15-040__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/02-006__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-153__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/17-013__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-112__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-143__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/07-013__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/15-073__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-127__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/15-084__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/07-037__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/01-169__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/15-014__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/17-027__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/07-047__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/07-004__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/15-010__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11377/2656260097.py", line 17, in <module>
+    annotation = Annotation(uri=file)
+NameError: name 'Annotation' is not defined
+
+
