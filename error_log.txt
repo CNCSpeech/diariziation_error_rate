@@ -1442,3 +1442,432 @@ Traceback (most recent call last):
 NameError: name 'Annotation' is not defined
 
 
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/17-039_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Miguel/17-039_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/17-026_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Miguel/17-026_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/02-074_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Miguel/02-074_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/01-092_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Miguel/01-092_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/02-060_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Miguel/02-060_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/07-034_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Miguel/07-034_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Miguel/17-018_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Miguel/17-018_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-076__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/01-076__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/15-064__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/15-064__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/17-029__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/17-029__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-158__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/01-158__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-182__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/01-182__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/15-091__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/15-091__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/01-121__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/01-121__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/15-040__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/15-040__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Rafa/02-006__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Rafa/02-006__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-153__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/01-153__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/17-013__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/17-013__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-112__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/01-112__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-143__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/01-143__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/07-013__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/07-013__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/15-073__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/15-073__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/01-127__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/01-127__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Vanesa/15-084__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Vanesa/15-084__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/07-037__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Agus/07-037__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/01-169__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Agus/01-169__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/15-014__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Agus/15-014__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/17-027__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Agus/17-027__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/07-047__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Agus/07-047__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/07-004__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Agus/07-004__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Agus/15-010__FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/2656260097.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/Agus/15-010__FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/17-039_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/17-039_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/17-026_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/17-026_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/02-074_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/02-074_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/01-092_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/01-092_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/02-060_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/02-060_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/07-034_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/07-034_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/17-018_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/17-018_FREE.txt'
+
+
+Error in file: /home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-ground-truth/Todos_txt/17-026_FREE.txt
+Traceback (most recent call last):
+  File "/tmp/ipykernel_48275/182158421.py", line 29, in <module>
+    hypothesis = txt2annotation(hypothesis_path, annotation)
+  File "/tmp/ipykernel_48275/733004344.py", line 4, in txt2annotation
+    with open(path_txt, 'r') as f:
+  File "/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/der_env/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 324, in _modified_open
+    return io_open(file, *args, **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/17-026_FREE.txt'
+
+
