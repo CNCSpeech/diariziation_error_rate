@@ -1,0 +1,14 @@
+Flagged Recordings & Transcriptions (diarization isssues)
+
+Recording	Examiner Instances
+09-011_FREE	1
+09-026_FREE	1
+09-190_FREE	1
+09-203_FREE	1
+09-223_FREE	1
+09-035_FREE	4
+09-041_FREE	3
+
+For the recordings with 1 instance it tends to be the 1st or the last phrase - just the intro question or a "yes" or "okay" at the end
+
+
