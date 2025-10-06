@@ -2058,3 +2058,24 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/matias/Documents/UdeSA/CNC/diariziation_error_rate/GENFI_Error_Rates/DER-prediction/Todos_txt/19-007_FREE.txt'
 
 
+REDLAT/reference_all/REDLAT_LO00875_Semantic.txt
+REDLAT/reference_all/REDLAT_AF111_Phonological.txt
+REDLAT/reference_all/REDLAT_LO00875_Semantic2.txt
+REDLAT/reference_all/REDLAT_LO00782_Phonological.txt
+REDLAT/reference_all/REDLAT_LO00740_CraftIm.txt
+REDLAT/reference_all/REDLAT_MA765_Fugu.txt
+REDLAT/reference_all/REDLAT_MA413_Semantic.txt
+REDLAT/reference_all/REDLAT_AF111_Semantic2.txt
+REDLAT/reference_all/REDLAT_LO00673_Semantic2.txt
+REDLAT/reference_all/REDLAT_AF111_Semantic.txt
+REDLAT/reference_all/REDLAT_LO00710_Semantic.txt
+REDLAT/reference_all/REDLAT_MA685_Phonological.txt
+REDLAT/reference_all/REDLAT_LO00710_Semantic2.txt
+REDLAT/reference_all/REDLAT_LO00935_Phonological2.txt
+REDLAT/reference_all/REDLAT_LO00777_Phonological.txt
+REDLAT/reference_all/REDLAT_LO00900_Fugu.txt
+REDLAT/reference_all/REDLAT_MA223_Semantic.txt
+REDLAT/reference_all/REDLAT_MA777_Fugu.txt
+REDLAT/reference_all/REDLAT_LO00921_CraftIm.txt
+REDLAT/reference_all/REDLAT_AF111_CraftIm.txt
+REDLAT/reference_all/REDLAT_LO00875_Phonological.txt
